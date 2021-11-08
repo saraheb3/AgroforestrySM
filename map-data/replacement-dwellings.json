@@ -1,0 +1,103 @@
+{
+    "Name": "Demolition of Traditional Buildings in the Manx Countryside (using the 'replacement dwelling' policy).",
+    "Description": "The Isle of Man is a UNESCO Biosphere Reserve, awarded in recognition of the uniqueness of the island’s cultural landscapes. As a predominantly rural country (with 80% of land used for agriculture), rural planning policy is a key modifier of Manx cultural landscapes. Manx vernacular farmhouses, cottages, and farm buildings, alongside Manx sod hedges and small field structure, contribute to the ‘sense of place’. Current policy only allows for rural development in exceptional circumstances, which includes ‘replacement dwellings’, a policy mandating the clearance of existing rural development. There has been to date no assessment of the effectiveness of Manx planning policies at protecting built heritage within cultural landscapes. I created an evidence-based methodology with decision-trees to assess: (a) the completeness of policy implementation; and (b) its influence on decision-making. The method is demonstrated for the ‘replacement dwelling’ policy for the last 3.5 years. Public records were screened for relevance, with those remaining assigned policy assessment, compliance, and policy balance scores. Of 62 relevant applications, 58 had recommendations contrary to ‘replacement dwelling’ policy. In total, 50% of the replacement dwelling requirements were assessed by case officers in the applications. In particular, requirements establishing the principle of demolition / redevelopment (including protection for existing historic buildings) were only assessed with 23% completeness, and 14% compliance. 27 applications permitted demolition and replacement of vernacular buildings, including 17 farmhouses. Assessments of historic and architectural merit, required by policy, were uncommon, and only once was a conservation report obtained. The requirements for siting, size, and design of approved replacements were complied with 47% of the time, with 38% of these deemed ‘exceptional circumstances’. The evidence strongly suggests that policy application is inconsistent and incomplete, with the policies assessed here having no relation to the recommendations issued. Policy thus fails to provide protection to the historic buildings. I suggest that the method developed here could be used to overcome subjectivity in policy application, and allow performance tracking of individual policies.",
+    "Publication": "",
+    "Projection": "standard",
+    "DisplayMode": "cluster",
+    "MapCentre": [-4.6, 54.25],
+    "MapZoomLevel": 300,
+    "ClusterDistance": 1,
+    "DisplayUnit": "Vernacular, Traditional, or Pre-1920 Building",
+    "MaxPieSize": 10,
+    "BaseLayers": [{
+        "File": "iom-local-authorities",
+        "Name": "Local Authorities",
+        "Description": "Isle of Man local authorities. Data source: Isle of Man Government."
+    }],
+    "Fields": [{
+            "Column": "Vernacular, Traditional, or Pre-1920 Building",
+            "Name": "Vernacular, Traditional, or Pre-1920 Building?",
+            "DataType": "string",
+            "Description": "Where the planning officer's report did not sufficiently describe the property, this is marked as 'not enough information'."
+        },
+        {
+            "Column": "Recommended Permitted",
+            "Name": "Recommended by Case Officer",
+            "DataType": "string",
+            "Description": "Did the planning officer's report recommend this development for approval?"
+        },
+        {
+            "Column": "High Landscape Value (1982)",
+            "Name": "Area of High Landscape Value",
+            "DataType": "string",
+            "Description": "Areas of High Landscape Value are defined in the 1982 IOM Development Plan."
+        },
+        {
+            "Column": "Housing Policy 12",
+            "Name": "Was Housing Policy 12 included for assessment?",
+            "DataType": "string",
+            "Description": "This policy applies to all replacement dwellings. It protects buildings of historic or architectural interest from demolition."
+        },
+        {
+            "Column": "Housing Policy 13",
+            "Name": "Was Housing Policy 13 included for assessment?",
+            "DataType": "string",
+            "Description": "Did the planning officer's report recommend this development for approval?"
+        },
+        {
+            "Column": "Housing Policy 14",
+            "Name": "Was Housing Policy 14 included for assessment?",
+            "DataType": "string",
+            "Description": "Did the planning officer's report recommend this development for approval?"
+        },
+        {
+            "Column": "Land Designation",
+            "Name": "Land Designation",
+            "DataType": "string",
+            "Description": "If the case officer did not describe the existing dwelling sufficiently, this is indicated."
+        },
+        {
+            "Column": "Is Countryside",
+            "Name": "Countryside",
+            "DataType": "string",
+            "Description": "If the case officer did not describe the existing dwelling sufficiently, this is indicated."
+        },
+        {
+            "Column": "Plan Used",
+            "Name": "Plan Used",
+            "DataType": "string",
+            "Description": "If the case officer did not describe the existing dwelling sufficiently, this is indicated."
+        },
+        {
+            "Column": "Case Officer",
+            "Name": "Case Officer",
+            "DataType": "string",
+            "Description": "If the case officer did not describe the existing dwelling sufficiently, this is indicated."
+        },
+        {
+            "Column": "Same Countersignatory",
+            "Name": "Same Countersignatory?",
+            "DataType": "string",
+            "Description": "Was the recommendation countersigned by another individual before a decision was made?"
+        },
+        {
+            "Column": "Percent Original Floor Area",
+            "Name": "Floor Area: Percentage Increase",
+            "DataType": "float",
+            "unit": "years",
+            "Description": ""
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "Vernacular, Traditional, or Pre-1920 Building",
+        "Palette": [{
+                "Name": "No Data Online",
+                "Hex": "015ce6"
+            },
+            {
+                "Name": "3 Carbon Dioxide",
+                "Hex": "ff2fc5"
+            }
+        ]
+    }]
+}
